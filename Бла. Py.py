@@ -6,8 +6,10 @@ favorite_languages = {
     'Edward': 'ruby', 
     }
     
-print(f"Список всех участников {favorite_languages}")
+print('Список всех участников: \n')
+for man in favorite_languages:
+    print (man)
 
-name = input('Введите имя\n')
+name = input('\nВведите имя\n')
 
-print(favorite_languages['Ben'])
+print(favorite_languages[name])
